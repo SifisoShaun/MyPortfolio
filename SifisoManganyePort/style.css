@@ -394,6 +394,23 @@ article .icon {
   height: 70vh;
 }
 
+@keyframes bounceArrow {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.arrow {
+  animation: bounceArrow 2.5s ease-in-out infinite;
+}
+
+
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
