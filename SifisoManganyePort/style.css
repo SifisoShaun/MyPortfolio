@@ -9,6 +9,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-image: url("../assets/Profil pic.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 html {
